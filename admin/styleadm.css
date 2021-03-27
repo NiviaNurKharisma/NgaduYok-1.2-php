@@ -1,0 +1,123 @@
+body{
+	font-family: 'Potta One', 'Source Sans Pro', 'Lato';
+	background-image: linear-gradient(to left,#eef7d8,#8daeebb6,#83b5e4);;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1{
+	/*ketebalan font*/
+	font-weight: 300;
+    font-size: 240%;
+    text-align: center;
+    letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: 'Potta One';
+    text-transform: uppercase;
+    color: #2e3033b6;
+}
+
+h1::after{
+    content: '';
+    width: 150px;
+    height: 2px;
+    display: block;
+    background-color: rgba(39, 57, 160, 0.815);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+a{
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+    color: #2e3033b6;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.kotak_ngadu{
+	width: 400px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	padding: 40px 30px;
+	border-radius: 16px;
+	box-shadow: black;
+    margin: 30px;
+    margin-left: 30%;
+}
+
+label{
+	font-size: 20x;
+	font-family: 'Source Sans Pro';
+}
+
+.form_ngadu{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+    font-family: 'Lato';
+	font-size: 15px;
+	margin-top: 20px;
+}
+input[type=text],
+select{
+    width: 100%;
+    padding: 7px;
+    
+}
+option{
+    font-family: 'Lato';
+    color: #000
+}
+
+.tombol_login{
+	display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid #9cade2c0;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    border-radius: 16px; 
+	background-color: #9cade2c0;
+	margin-left: 42%;
+}
+
+.tombol_login:hover{
+    background-color:#436ce7c0;
+    transition: 0.3s;
+    border: 1px solid #436ce7c0;
+    color: #000000;
+}
+.btn2{
+    margin-left: 20px;
+	display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #9cade2c0;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    border-radius: 16px; 
+	background-color: #ffffff;
+	color: #000000;
+}
+.btn2:hover{
+    background-color:#9cade2c0;
+    transition: 0.3s;
+    color: #000000;
+}

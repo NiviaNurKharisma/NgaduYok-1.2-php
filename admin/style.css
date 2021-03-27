@@ -1,0 +1,44 @@
+body{
+	font-family: 'Potta One', 'Lato';
+    background-size: cover;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h2{
+	/*ketebalan font*/
+	font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: 'Potta One';
+    text-transform: uppercase;
+    color: #000;
+}
+
+h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+    color: #000;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.kolom{
+    font-family: 'Lato';
+    color: #000;
+    font-size: 14px;
+    font-weight: 40;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
